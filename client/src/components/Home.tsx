@@ -22,10 +22,10 @@ const Home = () => {
   return (
     <div style={{ textAlign: 'center', color: 'black' }}>
       <h1 style={{ paddingBottom: 20 }}>welcome!</h1>
-      <h1 style={{ paddingBottom: 20 }}>This is a simple CRUD application</h1>
-      <h1>Please login as admin to view all user tasks</h1>
-      <h1 style={{ paddingBottom: 20 }}>Email: admin@gmail.com, Password: admin</h1>
-      <h1>Please register as user to view only users tasks</h1>
+      <h1 style={{ paddingBottom: 20 }}>This is a simple CRUD application with JWT authentication managed by cookies</h1>
+      <h1>Please login as admin to view and manage the tasks of all users</h1>
+      <h1 style={{ paddingBottom: 20, color: '#DC143C' }}>Email: admin@gmail.com, Password: admin</h1>
+      <h1>Please register and log in as a user to manage your tasks</h1>
     </div>
   );
 };
