@@ -9,13 +9,11 @@ process.on('unhandledException', err => {
     process.exit(1);
 })
 
-
 //Setting up config files
 dotenv.config({ path: './config.env' });
 
 //Connecting to Database
 connectDatabase();
-
 
 const server = app.listen(process.env.PORT, () => {
     console.log(`Server started on PORT: ${process.env.PORT} in ${process.env.NODE_ENV} mode.`);
