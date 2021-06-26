@@ -17,4 +17,4 @@ npm run dev-concurrently
 
 email: admin@gmail.com
 
-password:admin
+password: admin
